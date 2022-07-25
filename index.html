@@ -14,23 +14,36 @@
 <body>
     
     <div class="api-section">
-        <h1>
-            Part 1: Random Dog Generator
-        </h1>
-        <div class="api-content">
-            [INSERT RANDOM DOG GENERATOR HERE]
+        <h2>Random Doggy</h2>
+        <div class="card" style="width: 18rem;">
+            <img id="doggyImg" src=" " class="card-img-top" alt=" ">
+            <div class="card-body">           
+
+            <p>If you click this button a random doggy picture will generate</p>
+                        
+            <button id="doggyClick" type="button" class="btn btn-primary">Click Here</button>
+            </div>
         </div>
     </div>
+  
 
     <div class="api-section">
-        <h1>
-            Part 2: Weather App
-        </h1>
-        <div class="api-content">
-            [INSERT WEATHER APP HERE]
+        <h2>Weather</h2>
+        <div class="card" style="width: 18rem;">
+        
+            <p id="weatherImg" src=" " class="card-img-top" alt=" ">
+            <div class="card-body">  
+            <form>
+            <div class="mb-3">
+              <label for="cityInputLabel" class="form-label">City Choice</label>
+              <input type="text" class="form-control" id="exampleInputCity" >
+                   
+        
+            <button id="weatherSubmit" type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
-    </div>
-
+        </div>
+</div>
     <script src="main.js"></script>
 </body>
 </html>
